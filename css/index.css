@@ -1,33 +1,39 @@
 /* HEADER */
 .header {
-    height: 70px;
-    z-index: 10;
+  height: 70px;
+  z-index: 10;
+  opacity: 0.9;
 }
 
 .header .logo a span:nth-child(3) {
-    font-size: 8px !important;
+  font-size: 8px !important;
 }
 
 .header .buttons button {
-    border-radius: 50px;
+  border-radius: 50px;
 }
 
 /* CAROUSEL */
 .carousel {
-    height: 800px;
+  height: 800px;
 }
 
 /* Brands */
 .brands {
-    height: 200px;
+  height: 200px;
 }
 
 /* WORKFLOWS */
 .workflows {
-    height: 500px;
+  height: 500px;
 }
 
 /* INSIGHTS */
 .insights {
-    height: 500px;
+  height: 500px;
+}
+
+/* FOOTER */
+.footer {
+  min-height: 400px;
 }
