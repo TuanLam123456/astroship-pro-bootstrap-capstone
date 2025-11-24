@@ -37,3 +37,56 @@
 .footer {
   min-height: 400px;
 }
+
+/* Phat */
+.template a,.template .btn,
+.features-p .btn {
+  font-size: 12px;
+  color: purple;
+  background-color: rgba(147, 51, 234, 0.2);
+  cursor: context-menu;
+}
+
+.features-p .f-icon {
+  width: 45px;
+  height: 45px;
+  background-color: rgba(51, 191, 234, 0.2);
+}
+
+.features-p .f-icon i {
+  color: rgba(51, 191, 234, 0.9);
+}
+
+.testimonials .card-item {
+  flex-shrink: 0;
+}
+
+.testimonials .card-content {
+  /* position: absolute; */
+  animation: moveLeft 50s linear infinite;
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translate(calc(-100% - 2.5rem));
+  }
+}
+
+.testimonials .card-item {
+  transition-duration: 0.15s;
+}
+
+.testimonials .card-item:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.template .card-item .card:hover {
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.features-p .card:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+}
