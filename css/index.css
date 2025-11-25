@@ -5,12 +5,36 @@
   opacity: 0.9;
 }
 
+.header .navBar ul li {
+  transition: color 0.3s ease;
+}
+
+.header .navBar ul li:hover {
+  color: #0d6efd !important; /* Bootstrap primary color */
+  cursor: pointer;
+}
+
+.header .navBar ul li a:hover {
+  color: #0d6efd !important; /* Bootstrap primary color */
+  cursor: pointer;
+}
+
 .header .logo a span:nth-child(3) {
   font-size: 8px !important;
 }
 
 .header .buttons button {
   border-radius: 50px;
+}
+
+.header button span {
+  display: inline-block;
+  transition: all 0.2s;
+}
+
+.header button:hover span {
+  transition: all 0.2s;
+  transform: translateX(5px);
 }
 
 /* CAROUSEL */
@@ -39,7 +63,8 @@
 }
 
 /* Phat */
-.template a,.template .btn,
+.template a,
+.template .btn,
 .features-p .btn {
   font-size: 12px;
   color: purple;
