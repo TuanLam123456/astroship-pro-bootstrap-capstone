@@ -91,6 +91,25 @@
   animation: moveLeft 50s linear infinite;
 }
 
+/* INTEGRATIONS */
+.integrations a .card {
+  transition: all 0.5s;
+}
+
+.integrations a:hover .card {
+  transition: all 0.5s;
+  box-shadow: 10px 5px 11px -4px rgba(0, 0, 0, 0.41);
+}
+
+.integrations a img {
+  transition: all 0.5s;
+}
+
+.integrations a:hover img {
+  transition: all 0.5s;
+  box-shadow: 10px 5px 11px -4px rgba(0, 0, 0, 0.41);
+}
+
 @keyframes moveLeft {
   0% {
     transform: translateX(0);
