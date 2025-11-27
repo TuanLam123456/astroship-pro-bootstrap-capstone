@@ -80,6 +80,32 @@
 .error-demo {
   height: 400px;
 }
+
+/* DETAILS */
+.details .code .code-1::before {
+  content: "`";
+}
+
+.details .code .code-1::after {
+  content: "`";
+}
+
+.details .code .code-2::before {
+  content: "`<strong>";
+}
+
+.details .code .code-2::after {
+  content: "</strong>`";
+}
+
+.details .inline .inline-1::before {
+  content: "`";
+}
+
+.details .inline .inline-1::after {
+  content: "`";
+}
+
 /* FOOTER */
 .footer {
   min-height: 400px;
