@@ -29,97 +29,114 @@
 
   <body>
     <!-- HEADER -->
-    <header
-      class="header shadow bg-light-subtle d-flex align-items-center w-100 position-sticky top-0"
-    >
-      <div class="container-fluid mx-3 d-flex justify-content-between">
-        <div class="logo w-25 d-flex align-items-center">
-          <a href="/" class="fs-4 ms-5" style="text-decoration: none">
+    <header class="header shadow bg-light-subtle w-100 position-sticky top-0">
+      <nav class="navbar navbar-expand-lg bg-light-subtle">
+        <div class="container-fluid mx-3">
+          <a
+            href="/"
+            class="navbar-brand fs-4 ms-2 ms-sm-5 logo-link"
+            style="text-decoration: none"
+          >
             <span class="text-primary fw-bold">Astro</span
             ><span class="text-secondary fw-light">ship</span>
-            <span class="bg-secondary-subtle text-dark p-2 rounded fw-bold py-1"
+            <span
+              class="bg-secondary-subtle text-dark px-1 py-0 rounded fw-bold logo-pro-tag"
               >PRO</span
             >
           </a>
-        </div>
-        <nav class="navBar w-50">
-          <ul
-            class="d-flex text-secondary align-items-center h-100 w-100 gap-5"
-            style="list-style: none"
-          >
-            <li>
-              <div class="dropdown">
-                <button
-                  class="btn btn-transparent text-secondary"
-                  type="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Pages <i class="fa fa-angle-down"></i>
-                </button>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a
-                      class="dropdown-item text-secondary"
-                      href="/pages/features.html"
-                      >Features</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item text-secondary"
-                      href="/pages/integrations.html"
-                      >Integrations</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item text-secondary"
-                      href="/pages/blog-details.html"
-                      >Blog Details</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item text-secondary"
-                      href="/pages/404.html"
-                      >404 Page</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li>
-              <a href="#" class="text-decoration-none text-secondary"
-                >Pricing</a
-              >
-            </li>
-            <li>
-              <a href="#" class="text-decoration-none text-secondary">About</a>
-            </li>
-            <li>
-              <a href="#" class="text-decoration-none text-secondary">Blog</a>
-            </li>
-            <li>
-              <a href="#" class="text-decoration-none text-secondary"
-                >Contact</a
-              >
-            </li>
-          </ul>
-        </nav>
-        <div
-          class="buttons w-25 d-flex align-items-center justify-content-around"
-        >
-          <a href="#" class="text-dark" style="text-decoration: none">Login</a>
+
           <button
+            class="navbar-toggler"
             type="button"
-            class="btn btn-primary fx-4 me-5"
-            data-bs-toggle="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-            Try for Free <span>></span>
+            <span class="navbar-toggler-icon"></span>
           </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navBar mx-lg-auto">
+              <ul class="navbar-nav mb-2 mb-lg-0 gap-lg-4">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link text-secondary"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Pages <i class="fa fa-angle-down"></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        class="dropdown-item text-secondary"
+                        href="/pages/features.html"
+                        >Features</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item text-secondary"
+                        href="/pages/integrations.html"
+                        >Integrations</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item text-secondary"
+                        href="/pages/blog-details.html"
+                        >Blog Details</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item text-secondary"
+                        href="/pages/404.html"
+                        >404 Page</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link text-secondary" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="buttons d-flex flex-column flex-lg-row align-items-lg-center mt-3 mt-lg-0"
+            >
+              <a
+                href="#"
+                class="text-dark nav-link me-lg-3 py-2 py-lg-0"
+                style="text-decoration: none"
+                >Login</a
+              >
+              <button
+                type="button"
+                class="btn btn-primary fx-4 me-lg-5 mb-3 mb-lg-0"
+                data-bs-toggle="button"
+              >
+                Try for Free <span>&gt;</span>
+              </button>
+            </div>
+          </div>
         </div>
-      </div>
+      </nav>
     </header>
 
     <!-- INTEGRATIONS -->
@@ -310,70 +327,85 @@
     <!-- FOOTER -->
     <footer class="footer bg-primary-subtle">
       <div class="container-fluid w-100 h-100">
-        <div class="top h-75 w-100 d-flex pt-5 ps-4">
-          <div class="logo w-25 h-100">
+        <div class="top w-100 d-flex flex-column flex-md-row pt-5 ps-md-4">
+          <!-- LOGO / INTRO -->
+          <div class="logo w-100 w-md-25 h-100 px-4 px-md-0 mb-4 mb-md-0">
             <a href="#" class="fs-5" style="text-decoration: none">
-              <span class="text-primary fw-bold">Astro</span
-              ><span class="text-secondary-emphasis fw-lighter">ship</span>
+              <span class="text-primary fw-bold">Astro</span>
+              <span class="text-secondary-emphasis fw-lighter">ship</span>
               <span
                 class="bg-secondary-subtle text-dark p-2 rounded fw-bold py-1"
                 style="font-size: 8px !important"
-                >PRO</span
               >
+                PRO
+              </span>
             </a>
+
             <p class="fs-6 fw-lighter mt-4 mb-4">
               Astroship Pro is a premium astro website template made for saas &
               startups. Built with Astro and Tailwind CSS.
             </p>
-            <button type="button" class="btn btn-secondary opacity-75 p-1">
-              <i class="fab fa-twitter-square text-secondary-emphasis fs-6"></i>
-            </button>
-            <button type="button" class="btn btn-secondary opacity-75 p-1">
-              <i class="fab fa-facebook text-secondary-emphasis fs-6"></i>
-            </button>
-            <button type="button" class="btn btn-secondary opacity-75 p-1">
-              <i class="fab fa-linkedin text-secondary-emphasis fs-6"></i>
-            </button>
+
+            <div class="d-flex gap-2">
+              <button type="button" class="btn btn-secondary opacity-75 p-1">
+                <i
+                  class="fab fa-twitter-square text-secondary-emphasis fs-6"
+                ></i>
+              </button>
+              <button type="button" class="btn btn-secondary opacity-75 p-1">
+                <i class="fab fa-facebook text-secondary-emphasis fs-6"></i>
+              </button>
+              <button type="button" class="btn btn-secondary opacity-75 p-1">
+                <i class="fab fa-linkedin text-secondary-emphasis fs-6"></i>
+              </button>
+            </div>
           </div>
-          <div class="links w-75 h-100">
-            <div class="row w-100 h-100">
-              <div class="col-4">
-                <ul style="list-style: none" class="ms-5">
-                  <label class="mb-4 fw-bold">Company</label>
-                  <li class="mb-3">About</li>
-                  <li class="mb-3">Careers</li>
-                  <li class="mb-3">Blog</li>
-                  <li class="mb-3">Contact</li>
+
+          <!-- LINKS SECTION -->
+          <div class="links w-100 w-md-75 h-100">
+            <div class="row">
+              <div class="col-12 col-md-4 mb-4">
+                <ul style="list-style: none" class="ms-md-5 ps-0">
+                  <label class="mb-3 fw-bold">Company</label>
+                  <li class="mb-2">About</li>
+                  <li class="mb-2">Careers</li>
+                  <li class="mb-2">Blog</li>
+                  <li class="mb-2">Contact</li>
                 </ul>
               </div>
-              <div class="col-4">
-                <ul style="list-style: none" class="ms-5">
-                  <label class="mb-4 fw-bold">Product</label>
-                  <li class="mb-3">For Startups</li>
-                  <li class="mb-3">Features</li>
-                  <li class="mb-3">Pricing</li>
-                  <li class="mb-3">Integrations</li>
+
+              <div class="col-12 col-md-4 mb-4">
+                <ul style="list-style: none" class="ms-md-5 ps-0">
+                  <label class="mb-3 fw-bold">Product</label>
+                  <li class="mb-2">For Startups</li>
+                  <li class="mb-2">Features</li>
+                  <li class="mb-2">Pricing</li>
+                  <li class="mb-2">Integrations</li>
                 </ul>
               </div>
-              <div class="col-4">
-                <ul style="list-style: none" class="ms-5">
-                  <label class="mb-4 fw-bold">Resources</label>
-                  <li class="mb-3">Help Center</li>
-                  <li class="mb-3">Guides</li>
-                  <li class="mb-3">Documentation</li>
-                  <li class="mb-3">Uptime Status</li>
+
+              <div class="col-12 col-md-4 mb-4">
+                <ul style="list-style: none" class="ms-md-5 ps-0">
+                  <label class="mb-3 fw-bold">Resources</label>
+                  <li class="mb-2">Help Center</li>
+                  <li class="mb-2">Guides</li>
+                  <li class="mb-2">Documentation</li>
+                  <li class="mb-2">Uptime Status</li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
+
         <hr class="mx-auto" />
-        <div class="bottom h-25 w-100">
-          <p class="text-center">
+
+        <!-- BOTTOM -->
+        <div class="bottom py-3">
+          <p class="text-center mb-1">
             Copyright © 2025 Astroship. All rights reserved.
           </p>
-          <p class="text-center">
-            <a class="text-decoration-none" href="#">Terms </a> ・
+          <p class="text-center mb-0">
+            <a class="text-decoration-none" href="#">Terms</a> ・
             <a class="text-decoration-none" href="#">Privacy</a>
           </p>
         </div>

@@ -19,7 +19,7 @@
   cursor: pointer;
 }
 
-.header .logo a span:nth-child(3) {
+.header .logo-pro-tag {
   font-size: 8px !important;
 }
 
@@ -139,7 +139,6 @@
   /* position: absolute; */
   animation: moveLeft 50s linear infinite;
 }
-
 
 @keyframes moveLeft {
   0% {
