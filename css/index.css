@@ -164,3 +164,28 @@
 .features-p .card:hover {
   background-color: rgba(0, 0, 0, 0.03);
 }
+
+/* PRICING */
+.pricing .btn-outline-primary:hover, .compare-plan .btn-outline-primary:hover{
+  background-color: rgba(12, 110, 253, 0.2) !important;
+  color: #0d6efd;
+}
+
+/* FAQ */
+.faq .accordion-button{
+  box-shadow: none;
+}
+
+/* CORE TEAM */
+.core-team img{
+  transition: all 0.5s;
+}
+
+.core-team img:hover{
+  transform: translateY(-10px);
+  transition: all 0.5s;
+}
+
+.our-blog button:hover{
+  background-color: rgb(199, 198, 198) !important;
+}
