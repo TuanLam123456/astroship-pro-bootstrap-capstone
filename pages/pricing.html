@@ -1,600 +1,884 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="https://astroship-pro.web3templates.com/favicon.svg" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://astroship-pro.web3templates.com/favicon.svg"
+    />
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
     <!-- Font Awesome CSS Link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- Link CSS -->
     <link rel="stylesheet" href="../css/index.css" />
     <title>Pricing</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- HEADER -->
     <header class="header shadow bg-light-subtle w-100 position-sticky top-0">
-        <nav class="navbar navbar-expand-lg bg-light-subtle">
-            <div class="container-fluid mx-3">
-                <a href="/" class="navbar-brand fs-4 ms-2 ms-sm-5 logo-link" style="text-decoration: none">
-                    <span class="text-primary fw-bold">Astro</span><span class="text-secondary fw-light">ship</span>
-                    <span class="bg-secondary-subtle text-dark px-1 py-0 rounded fw-bold logo-pro-tag">PRO</span>
-                </a>
+      <nav class="navbar navbar-expand-lg bg-light-subtle">
+        <div class="container-fluid mx-3">
+          <a
+            href="/"
+            class="navbar-brand fs-4 ms-2 ms-sm-5 logo-link"
+            style="text-decoration: none"
+          >
+            <span class="text-primary fw-bold">Astro</span
+            ><span class="text-secondary fw-light">ship</span>
+            <span
+              class="bg-secondary-subtle text-dark px-1 py-0 rounded fw-bold logo-pro-tag"
+              >PRO</span
+            >
+          </a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <div class="navBar mx-lg-auto">
-                        <ul class="navbar-nav mb-3 mb-lg-0 gap-lg-4">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link text-secondary" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Pages <i class="fa fa-angle-down"></i>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a class="dropdown-item text-secondary" href="/pages/features.html">Features</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item text-secondary"
-                                            href="/pages/integrations.html">Integrations</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item text-secondary" href="/pages/blog-details.html">Blog
-                                            Details</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item text-secondary" href="/pages/404.html">404 Page</a>
-                                    </li>
-                                </ul>
-                            </li>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navBar mx-lg-auto">
+              <ul class="navbar-nav mb-3 mb-lg-0 gap-lg-4">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link text-secondary"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Pages <i class="fa fa-angle-down"></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        class="dropdown-item text-secondary"
+                        href="/pages/features.html"
+                        >Features</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item text-secondary"
+                        href="/pages/integrations.html"
+                        >Integrations</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item text-secondary"
+                        href="/pages/blog-details.html"
+                        >Blog Details</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item text-secondary"
+                        href="/pages/404.html"
+                        >404 Page</a
+                      >
+                    </li>
+                  </ul>
+                </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link text-secondary" href="#">Pricing</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-secondary" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-secondary" href="#">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-secondary" href="#">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="buttons d-flex flex-column flex-lg-row align-items-lg-center mt-3 mt-lg-0">
-                        <a href="#" class="text-dark nav-link me-lg-3 py-2 py-lg-0"
-                            style="text-decoration: none">Login</a>
-                        <button type="button" class="btn btn-primary fx-4 me-lg-5 mb-3 mb-lg-0" data-bs-toggle="button">
-                            Try for Free <span>&gt;</span>
-                        </button>
-                    </div>
-                </div>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary" href="#">Contact</a>
+                </li>
+              </ul>
             </div>
-        </nav>
+
+            <div
+              class="buttons d-flex flex-column flex-lg-row align-items-lg-center mt-3 mt-lg-0"
+            >
+              <a
+                href="#"
+                class="text-dark nav-link me-lg-3 py-2 py-lg-0"
+                style="text-decoration: none"
+                >Login</a
+              >
+              <button
+                type="button"
+                class="btn btn-primary fx-4 me-lg-5 mb-3 mb-lg-0"
+                data-bs-toggle="button"
+              >
+                Try for Free <span>&gt;</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!-- PRICING -->
-    <section class="pricing text-center my-5" style="max-width: 1200px; margin: auto;">
-        <h1 class="fw-bold fs-1">Pricing</h1>
-        <p class="text-secondary my-3 fs-5">Simple & Predictable pricing. No Surprises.</p>
-        <div class="text-start my-5 d-flex justify-content-around">
-            <div class="border border-1 p-4 rounded-2 w-100 mx-4">
-                <p class="text-primary my-auto">Starter</p>
-                <p class="text-secondary my-auto"><span class="text-dark fs-6 fw-medium">$</span> <span
-                        class="text-dark fs-1 fw-bold">49</span> /month</p>
-                <p class="text-secondary my-auto">Perfect for startups</p>
-                <ul class="d-block" style="list-style: none; padding-left: 0; margin-top: 20px;">
-                    <li class="mb-3">
-                        <i class="fa fa-check-circle me-2"></i>Lifetime free
-                    </li>
-                    <li class="mb-3">
-                        <i class="fa fa-check-circle me-2"></i>Up to 3 users
-                    </li>
-                    <li class="mb-3">
-                        <i class="fa fa-check-circle me-2"></i>Unlimited Pages
-                    </li>
-                    <li class="mb-3">
-                        <i class="fa fa-check-circle me-2"></i>Astro Sub domain
-                    </li>
-                    <li class="mb-3">
-                        <i class="fa fa-check-circle me-2"></i>Basic Integrations
-                    </li>
-                    <li class="mb-3">
-                        <i class="fa fa-check-circle me-2"></i>Community Support
-                    </li>
-                </ul>
-                <button type="button" class="btn btn-outline-primary border-primary border-2 rounded-5 w-100 p-2">Get
-                    Started</button>
-            </div>
-            <div class="border border-2 p-4 rounded-2 w-100 mx-4 position-relative"
-                style="border-color: orange !important;">
-                <div class="text-center">
-                    <span class="btn rounded-5 text-white fw-bold position-absolute"
-                        style="font-size: 12px; background: linear-gradient(to right, #ef4444, #f97316);; top: -16px;right: 40%;">Popular</span>
-                </div>
-
-                <p class="my-auto" style="color: orange;">Business</p>
-                <p class="text-secondary my-auto"><span class="text-dark fs-6 fw-medium">$</span><span
-                        class="text-dark fs-1 fw-bold">149</span> /month</p>
-                <p class="text-secondary my-auto">For serious businesses</p>
-                <ul class="d-block" style="list-style: none; padding-left: 0; margin-top: 20px;">
-                    <li class="mb-3">
-                        <i class="fa fa-check-circle me-2"></i>All Free Features
-                    </li>
-                    <li class="mb-3">
-                        <i class="fa fa-check-circle me-2"></i>20 Custom domains
-                    </li>
-                    <li class="mb-3">
-                        <i class="fa fa-check-circle me-2"></i>Unlimited Pages
-                    </li>
-                    <li class="mb-3">
-                        <i class="fa fa-check-circle me-2"></i>Unlimited Collaborators
-                    </li>
-                    <li class="mb-3">
-                        <i class="fa fa-check-circle me-2"></i>Advanced Integrations
-                    </li>
-                    <li class="mb-3">
-                        <i class="fa fa-check-circle me-2"></i>Priority Support
-                    </li>
-                </ul>
-                <button type="button" class="btn btn-primary border-primary rounded-5 w-100 p-2">Get
-                    Started</button>
-            </div>
-            <div class="border border-1 p-4 rounded-2 w-100 mx-4">
-                <p class="my-auto" style="color: rgb(177, 27, 177);">Enterprise</p>
-                <p class="text-secondary my-auto text-dark fs-1 fw-bold">Custom</p>
-                <p class="text-secondary my-auto">Suitable for Enterprise solutions</p>
-                <ul class="d-block" style="list-style: none; padding-left: 0; margin-top: 20px;">
-                    <li class="mb-3">
-                        <i class="fa fa-check-circle me-2"></i>All Pro Features
-                    </li>
-                    <li class="mb-3">
-                        <i class="fa fa-check-circle me-2"></i>Unlimited Custom domains
-                    </li>
-                    <li class="mb-3">
-                        <i class="fa fa-check-circle me-2"></i>99.99% Uptime SLA
-                    </li>
-                    <li class="mb-3">
-                        <i class="fa fa-check-circle me-2"></i>SAML & SSO Integration
-                    </li>
-                    <li class="mb-3">
-                        <i class="fa fa-check-circle me-2"></i>Dedicated Account Manager
-                    </li>
-                    <li class="mb-3">
-                        <i class="fa fa-check-circle me-2"></i>24/7 Phone Support
-                    </li>
-                </ul>
-                <button type="button"
-                    class="btn btn-outline-primary border-primary border-2 rounded-5 w-100 p-2">Contact Us</button>
-            </div>
+    <section
+      class="pricing text-center my-5"
+      style="max-width: 1200px; margin: auto"
+    >
+      <h1 class="fw-bold fs-1">Pricing</h1>
+      <p class="text-secondary my-3 fs-5">
+        Simple & Predictable pricing. No Surprises.
+      </p>
+      <div class="text-start my-5 d-flex justify-content-around">
+        <div class="border border-1 p-4 rounded-2 w-100 mx-4">
+          <p class="text-primary my-auto">Starter</p>
+          <p class="text-secondary my-auto">
+            <span class="text-dark fs-6 fw-medium">$</span>
+            <span class="text-dark fs-1 fw-bold">49</span> /month
+          </p>
+          <p class="text-secondary my-auto">Perfect for startups</p>
+          <ul
+            class="d-block"
+            style="list-style: none; padding-left: 0; margin-top: 20px"
+          >
+            <li class="mb-3">
+              <i class="fa fa-check-circle me-2"></i>Lifetime free
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check-circle me-2"></i>Up to 3 users
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check-circle me-2"></i>Unlimited Pages
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check-circle me-2"></i>Astro Sub domain
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check-circle me-2"></i>Basic Integrations
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check-circle me-2"></i>Community Support
+            </li>
+          </ul>
+          <button
+            type="button"
+            class="btn btn-outline-primary border-primary border-2 rounded-5 w-100 p-2"
+          >
+            Get Started
+          </button>
         </div>
+        <div
+          class="border border-2 p-4 rounded-2 w-100 mx-4 position-relative"
+          style="border-color: orange !important"
+        >
+          <div class="text-center">
+            <span
+              class="btn rounded-5 text-white fw-bold position-absolute"
+              style="
+                font-size: 12px;
+                background: linear-gradient(to right, #ef4444, #f97316);
+                top: -16px;
+                right: 40%;
+              "
+              >Popular</span
+            >
+          </div>
 
+          <p class="my-auto" style="color: orange">Business</p>
+          <p class="text-secondary my-auto">
+            <span class="text-dark fs-6 fw-medium">$</span
+            ><span class="text-dark fs-1 fw-bold">149</span> /month
+          </p>
+          <p class="text-secondary my-auto">For serious businesses</p>
+          <ul
+            class="d-block"
+            style="list-style: none; padding-left: 0; margin-top: 20px"
+          >
+            <li class="mb-3">
+              <i class="fa fa-check-circle me-2"></i>All Free Features
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check-circle me-2"></i>20 Custom domains
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check-circle me-2"></i>Unlimited Pages
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check-circle me-2"></i>Unlimited Collaborators
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check-circle me-2"></i>Advanced Integrations
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check-circle me-2"></i>Priority Support
+            </li>
+          </ul>
+          <button
+            type="button"
+            class="btn btn-primary border-primary rounded-5 w-100 p-2"
+          >
+            Get Started
+          </button>
+        </div>
+        <div class="border border-1 p-4 rounded-2 w-100 mx-4">
+          <p class="my-auto" style="color: rgb(177, 27, 177)">Enterprise</p>
+          <p class="text-secondary my-auto text-dark fs-1 fw-bold">Custom</p>
+          <p class="text-secondary my-auto">
+            Suitable for Enterprise solutions
+          </p>
+          <ul
+            class="d-block"
+            style="list-style: none; padding-left: 0; margin-top: 20px"
+          >
+            <li class="mb-3">
+              <i class="fa fa-check-circle me-2"></i>All Pro Features
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check-circle me-2"></i>Unlimited Custom domains
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check-circle me-2"></i>99.99% Uptime SLA
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check-circle me-2"></i>SAML & SSO Integration
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check-circle me-2"></i>Dedicated Account Manager
+            </li>
+            <li class="mb-3">
+              <i class="fa fa-check-circle me-2"></i>24/7 Phone Support
+            </li>
+          </ul>
+          <button
+            type="button"
+            class="btn btn-outline-primary border-primary border-2 rounded-5 w-100 p-2"
+          >
+            Contact Us
+          </button>
+        </div>
+      </div>
     </section>
 
     <!-- COMPARE PLANS -->
-    <section class="compare-plan my-5" style="max-width: 1300px; margin: auto;">
-        <h1 class="fw-bold text-dark fs-2">Compare Plans</h1>
-        <p class="text-secondary">Use the table below to compare full features of this product.</p>
-        <div class="table-responsive">
-            <table class="table border">
-                <!-- <thead>
+    <section class="compare-plan my-5" style="max-width: 1300px; margin: auto">
+      <h1 class="fw-bold text-dark fs-2">Compare Plans</h1>
+      <p class="text-secondary">
+        Use the table below to compare full features of this product.
+      </p>
+      <div class="table-responsive">
+        <table class="table border">
+          <!-- <thead>
                     <tr>
                         <th scope="col">Column 1</th>
                         <th scope="col">Column 2</th>
                         <th scope="col">Column 3</th>
                     </tr>
                 </thead> -->
-                <tbody>
-                    <tr>
-                        <td class="text-secondary fw-medium align-content-center">
-                            Compare Plans
-                        <td>
-                            <div class="my-2">
-                                <p class="text-secondary fs-5 mb-0">Free</p>
-                                <p class="fw-bold text-dark fs-3">$0</p>
-                                <button type="button"
-                                    class="btn btn-outline-primary border-primary border-2 rounded-5 w-100">Get
-                                    Started</button>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="my-2">
-                                <p class="text-primary fs-5 mb-0">Starter</p>
-                                <p class="fw-bold text-dark fs-3">$49/mo</p>
-                                <button type="button"
-                                    class="btn btn-outline-primary border-primary border-2 rounded-5 w-100">Get
-                                    Started</button>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="my-2">
-                                <p class="fs-5 mb-0" style="color: orange;">Business</p>
-                                <p class="fw-bold text-dark fs-3">$149/mo</p>
-                                <button type="button"
-                                    class="btn btn-primary border-primary border-2 rounded-5 w-100">Get
-                                    Started</button>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="my-2">
-                                <p class="fs-5 mb-0" style="color: rgb(177, 27, 177);">Enterprise</p>
-                                <p class="fw-bold text-dark fs-3">Custom</p>
-                                <button type="button"
-                                    class="btn btn-outline-primary border-primary border-2 rounded-5 w-100">Get
-                                    Started</button>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="text-dark fw-semibold bg-body-secondary">Custom Domains</td>
-                        <td class="bg-body-secondary">Single Subdomain</td>
-                        <td class="bg-body-secondary">1 Custom Domain</td>
-                        <td class="bg-body-secondary">5 Custom Domains</td>
-                        <td class="bg-body-secondary">100 Custom Domains</td>
-                    </tr>
-                    <tr>
-                        <td class="text-dark fw-semibold">Storage</td>
-                        <td>1GB</td>
-                        <td>10 GB</td>
-                        <td>50GB</td>
-                        <td>200GB</td>
-                    </tr>
-                    <tr>
-                        <td class="text-dark fw-semibold bg-body-secondary">Users</td>
-                        <td class="bg-body-secondary">10</td>
-                        <td class="bg-body-secondary">100</td>
-                        <td class="bg-body-secondary">500</td>
-                        <td class="bg-body-secondary">Unlimited</td>
-                    </tr>
-                    <tr>
-                        <td class="text-dark fw-semibold">Email Support</td>
-                        <td>Email Only</td>
-                        <td>Email and Chat</td>
-                        <td>Email, Chat, and Phone</td>
-                        <td>24/7 Support</td>
-                    </tr>
-                    <tr>
-                        <td class="text-dark fw-semibold bg-body-secondary">API Access</td>
-                        <td class="bg-body-secondary">-</td>
-                        <td class="bg-body-secondary">-</td>
-                        <td class="bg-body-secondary"><i class="fa fa-check-circle"></i></td>
-                        <td class="bg-body-secondary"><i class="fa fa-check-circle"></i></td>
-                    </tr>
-                    <tr>
-                        <td class="text-dark fw-semibold">SSO Integration</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td><i class="fa fa-check-circle"></i></td>
-                    </tr>
-                    <tr>
-                        <td class="text-dark fw-semibold bg-body-secondary">Data Export</td>
-                        <td class="bg-body-secondary">Limited</td>
-                        <td class="bg-body-secondary">Unlimited</td>
-                        <td class="bg-body-secondary">Unlimited</td>
-                        <td class="bg-body-secondary">Unlimited</td>
-                    </tr>
-                    <tr>
-                        <td class="text-dark fw-semibold">File Uploads</td>
-                        <td>Basic</td>
-                        <td>Basic</td>
-                        <td>Advanced</td>
-                        <td>Advanced</td>
-                    </tr>
-                    <tr>
-                        <td class="text-dark fw-semibold bg-body-secondary">Analytics</td>
-                        <td class="bg-body-secondary">Limited</td>
-                        <td class="bg-body-secondary">Limited</td>
-                        <td class="bg-body-secondary">Limited</td>
-                        <td class="bg-body-secondary">Unlimited</td>
-                    </tr>
-                    <tr>
-                        <td class="text-dark fw-semibold">Custom Branding</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td><i class="fa fa-check-circle"></i></td>
-                        <td><i class="fa fa-check-circle"></i></td>
-                    </tr>
-                    <tr>
-                        <td class="text-dark fw-semibold bg-body-secondary">24/7 Support</td>
-                        <td class="bg-body-secondary">-</td>
-                        <td class="bg-body-secondary">-</td>
-                        <td class="bg-body-secondary"><i class="fa fa-check-circle"></i></td>
-                        <td class="bg-body-secondary"><i class="fa fa-check-circle"></i></td>
-                    </tr>
-                    <tr>
-                        <td class="text-dark fw-semibold">Priority Access</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td><i class="fa fa-check-circle"></i></td>
-                    </tr>
-                    <tr>
-                        <td class="text-dark fw-semibold bg-body-secondary">Custom Reporting</td>
-                        <td class="bg-body-secondary">Basic</td>
-                        <td class="bg-body-secondary">Basic</td>
-                        <td class="bg-body-secondary">Advanced</td>
-                        <td class="bg-body-secondary">Advanced</td>
-                    </tr>
-                    <tr>
-                        <td class="text-dark fw-semibold">Team Collaboration</td>
-                        <td>-</td>
-                        <td>Limited</td>
-                        <td>-</td>
-                        <td><i class="fa fa-check-circle"></i></td>
-                    </tr>
-                    <tr>
-                        <td class="text-dark fw-semibold bg-body-secondary">Integration with CRM</td>
-                        <td class="bg-body-secondary">-</td>
-                        <td class="bg-body-secondary">-</td>
-                        <td class="bg-body-secondary">-</td>
-                        <td class="bg-body-secondary"><i class="fa fa-check-circle"></i></td>
-                    </tr>
-                    <tr>
-                        <td class="text-dark fw-semibold">White Label</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td><i class="fa fa-check-circle"></i></td>
-                    </tr>
-                    <tr>
-                        <td class="text-dark fw-semibold bg-body-secondary">Data Security</td>
-                        <td class="bg-body-secondary">Basic</td>
-                        <td class="bg-body-secondary">Basic</td>
-                        <td class="bg-body-secondary">Advanced</td>
-                        <td class="bg-body-secondary">Advanced</td>
-                    </tr>
-                    <tr>
-                        <td class="text-dark fw-semibold">Mobile App Access</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td><i class="fa fa-check-circle"></i></td>
-                        <td><i class="fa fa-check-circle"></i></td>
-                    </tr>
-                    <tr>
-                        <td class="text-dark fw-semibold bg-body-secondary">User Permissions</td>
-                        <td class="bg-body-secondary">Limited</td>
-                        <td class="bg-body-secondary">Limited</td>
-                        <td class="bg-body-secondary">Unlimited</td>
-                        <td class="bg-body-secondary">Unlimited</td>
-                    </tr>
-                    <tr>
-                        <td class="text-dark fw-semibold">Backup and Restore</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td><i class="fa fa-check-circle"></i></td>
-                        <td><i class="fa fa-check-circle"></i></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+          <tbody>
+            <tr>
+              <td class="text-secondary fw-medium align-content-center">
+                Compare Plans
+              </td>
 
+              <td>
+                <div class="my-2">
+                  <p class="text-secondary fs-5 mb-0">Free</p>
+                  <p class="fw-bold text-dark fs-3">$0</p>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary border-primary border-2 rounded-5 w-100"
+                  >
+                    Get Started
+                  </button>
+                </div>
+              </td>
+              <td>
+                <div class="my-2">
+                  <p class="text-primary fs-5 mb-0">Starter</p>
+                  <p class="fw-bold text-dark fs-3">$49/mo</p>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary border-primary border-2 rounded-5 w-100"
+                  >
+                    Get Started
+                  </button>
+                </div>
+              </td>
+              <td>
+                <div class="my-2">
+                  <p class="fs-5 mb-0" style="color: orange">Business</p>
+                  <p class="fw-bold text-dark fs-3">$149/mo</p>
+                  <button
+                    type="button"
+                    class="btn btn-primary border-primary border-2 rounded-5 w-100"
+                  >
+                    Get Started
+                  </button>
+                </div>
+              </td>
+              <td>
+                <div class="my-2">
+                  <p class="fs-5 mb-0" style="color: rgb(177, 27, 177)">
+                    Enterprise
+                  </p>
+                  <p class="fw-bold text-dark fs-3">Custom</p>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary border-primary border-2 rounded-5 w-100"
+                  >
+                    Get Started
+                  </button>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="text-dark fw-semibold bg-body-secondary">
+                Custom Domains
+              </td>
+              <td class="bg-body-secondary">Single Subdomain</td>
+              <td class="bg-body-secondary">1 Custom Domain</td>
+              <td class="bg-body-secondary">5 Custom Domains</td>
+              <td class="bg-body-secondary">100 Custom Domains</td>
+            </tr>
+            <tr>
+              <td class="text-dark fw-semibold">Storage</td>
+              <td>1GB</td>
+              <td>10 GB</td>
+              <td>50GB</td>
+              <td>200GB</td>
+            </tr>
+            <tr>
+              <td class="text-dark fw-semibold bg-body-secondary">Users</td>
+              <td class="bg-body-secondary">10</td>
+              <td class="bg-body-secondary">100</td>
+              <td class="bg-body-secondary">500</td>
+              <td class="bg-body-secondary">Unlimited</td>
+            </tr>
+            <tr>
+              <td class="text-dark fw-semibold">Email Support</td>
+              <td>Email Only</td>
+              <td>Email and Chat</td>
+              <td>Email, Chat, and Phone</td>
+              <td>24/7 Support</td>
+            </tr>
+            <tr>
+              <td class="text-dark fw-semibold bg-body-secondary">
+                API Access
+              </td>
+              <td class="bg-body-secondary">-</td>
+              <td class="bg-body-secondary">-</td>
+              <td class="bg-body-secondary">
+                <i class="fa fa-check-circle"></i>
+              </td>
+              <td class="bg-body-secondary">
+                <i class="fa fa-check-circle"></i>
+              </td>
+            </tr>
+            <tr>
+              <td class="text-dark fw-semibold">SSO Integration</td>
+              <td>-</td>
+              <td>-</td>
+              <td>-</td>
+              <td><i class="fa fa-check-circle"></i></td>
+            </tr>
+            <tr>
+              <td class="text-dark fw-semibold bg-body-secondary">
+                Data Export
+              </td>
+              <td class="bg-body-secondary">Limited</td>
+              <td class="bg-body-secondary">Unlimited</td>
+              <td class="bg-body-secondary">Unlimited</td>
+              <td class="bg-body-secondary">Unlimited</td>
+            </tr>
+            <tr>
+              <td class="text-dark fw-semibold">File Uploads</td>
+              <td>Basic</td>
+              <td>Basic</td>
+              <td>Advanced</td>
+              <td>Advanced</td>
+            </tr>
+            <tr>
+              <td class="text-dark fw-semibold bg-body-secondary">Analytics</td>
+              <td class="bg-body-secondary">Limited</td>
+              <td class="bg-body-secondary">Limited</td>
+              <td class="bg-body-secondary">Limited</td>
+              <td class="bg-body-secondary">Unlimited</td>
+            </tr>
+            <tr>
+              <td class="text-dark fw-semibold">Custom Branding</td>
+              <td>-</td>
+              <td>-</td>
+              <td><i class="fa fa-check-circle"></i></td>
+              <td><i class="fa fa-check-circle"></i></td>
+            </tr>
+            <tr>
+              <td class="text-dark fw-semibold bg-body-secondary">
+                24/7 Support
+              </td>
+              <td class="bg-body-secondary">-</td>
+              <td class="bg-body-secondary">-</td>
+              <td class="bg-body-secondary">
+                <i class="fa fa-check-circle"></i>
+              </td>
+              <td class="bg-body-secondary">
+                <i class="fa fa-check-circle"></i>
+              </td>
+            </tr>
+            <tr>
+              <td class="text-dark fw-semibold">Priority Access</td>
+              <td>-</td>
+              <td>-</td>
+              <td>-</td>
+              <td><i class="fa fa-check-circle"></i></td>
+            </tr>
+            <tr>
+              <td class="text-dark fw-semibold bg-body-secondary">
+                Custom Reporting
+              </td>
+              <td class="bg-body-secondary">Basic</td>
+              <td class="bg-body-secondary">Basic</td>
+              <td class="bg-body-secondary">Advanced</td>
+              <td class="bg-body-secondary">Advanced</td>
+            </tr>
+            <tr>
+              <td class="text-dark fw-semibold">Team Collaboration</td>
+              <td>-</td>
+              <td>Limited</td>
+              <td>-</td>
+              <td><i class="fa fa-check-circle"></i></td>
+            </tr>
+            <tr>
+              <td class="text-dark fw-semibold bg-body-secondary">
+                Integration with CRM
+              </td>
+              <td class="bg-body-secondary">-</td>
+              <td class="bg-body-secondary">-</td>
+              <td class="bg-body-secondary">-</td>
+              <td class="bg-body-secondary">
+                <i class="fa fa-check-circle"></i>
+              </td>
+            </tr>
+            <tr>
+              <td class="text-dark fw-semibold">White Label</td>
+              <td>-</td>
+              <td>-</td>
+              <td>-</td>
+              <td><i class="fa fa-check-circle"></i></td>
+            </tr>
+            <tr>
+              <td class="text-dark fw-semibold bg-body-secondary">
+                Data Security
+              </td>
+              <td class="bg-body-secondary">Basic</td>
+              <td class="bg-body-secondary">Basic</td>
+              <td class="bg-body-secondary">Advanced</td>
+              <td class="bg-body-secondary">Advanced</td>
+            </tr>
+            <tr>
+              <td class="text-dark fw-semibold">Mobile App Access</td>
+              <td>-</td>
+              <td>-</td>
+              <td><i class="fa fa-check-circle"></i></td>
+              <td><i class="fa fa-check-circle"></i></td>
+            </tr>
+            <tr>
+              <td class="text-dark fw-semibold bg-body-secondary">
+                User Permissions
+              </td>
+              <td class="bg-body-secondary">Limited</td>
+              <td class="bg-body-secondary">Limited</td>
+              <td class="bg-body-secondary">Unlimited</td>
+              <td class="bg-body-secondary">Unlimited</td>
+            </tr>
+            <tr>
+              <td class="text-dark fw-semibold">Backup and Restore</td>
+              <td>-</td>
+              <td>-</td>
+              <td><i class="fa fa-check-circle"></i></td>
+              <td><i class="fa fa-check-circle"></i></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </section>
 
     <!-- FAQ -->
-    <section class="faq text-center my-5" style="max-width: 700px; margin: auto;">
-        <h1 class="text-dark fw-bold" style="font-size: 60px;">FAQ</h1>
-        <p class="text-secondary fs-5">Frequenty asked questions</p>
-        <div class="accordion text-start" id="accordionExample">
-            <div class="accordion-item border-0" style=" border-bottom: solid 1px rgba(108, 117, 125, 0.2) !important;">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed fw-medium bg-white text-dark" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                        What is Astroship's API-based SAAS platform?
-                    </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body text-secondary pt-0">
-                        Astroship's API-based SAAS platform is a cloud-based software service that allows users to access and use a variety of API-powered tools and functionality.
-                    </div>
-                </div>
+    <section
+      class="faq text-center my-5"
+      style="max-width: 700px; margin: auto"
+    >
+      <h1 class="text-dark fw-bold" style="font-size: 60px">FAQ</h1>
+      <p class="text-secondary fs-5">Frequenty asked questions</p>
+      <div class="accordion text-start" id="accordionExample">
+        <div
+          class="accordion-item border-0"
+          style="border-bottom: solid 1px rgba(108, 117, 125, 0.2) !important"
+        >
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed fw-medium bg-white text-dark"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="false"
+              aria-controls="collapseOne"
+            >
+              What is Astroship's API-based SAAS platform?
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body text-secondary pt-0">
+              Astroship's API-based SAAS platform is a cloud-based software
+              service that allows users to access and use a variety of
+              API-powered tools and functionality.
             </div>
-             <div class="accordion-item border-0" style=" border-bottom: solid 1px rgba(108, 117, 125, 0.2) !important;">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed fw-medium bg-white text-dark" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                        How does Astroship's billing work?
-                    </button>
-                </h2>
-                <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body text-secondary pt-0">
-                        Astroship offers a variety of billing options, including monthly and annual subscription plans, as well as pay-as-you-go pricing for certain services. Payment is typically made through a credit card or other secure online payment method.
-                    </div>
-                </div>
-            </div>
-             <div class="accordion-item border-0" style=" border-bottom: solid 1px rgba(108, 117, 125, 0.2) !important;">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed fw-medium bg-white text-dark" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseTow" aria-expanded="false" aria-controls="collapseTow">
-                        Can I get a refund for my Astroship subscription?
-                    </button>
-                </h2>
-                <div id="collapseTow" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body text-secondary pt-0">
-                        Astroship offers a 30-day money-back guarantee for most of its subscription plans. If you are not satisfied with your subscription within the first 30 days, you can request a full refund. Refunds for subscriptions that have been active for longer than 30 days may be considered on a case-by-case basis.
-                    </div>
-                </div>
-            </div>
-             <div class="accordion-item border-0" style=" border-bottom: solid 1px rgba(108, 117, 125, 0.2) !important;">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed fw-medium bg-white text-dark" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        How do I cancel my Astroship subscription?
-                    </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body text-secondary pt-0">
-                        To cancel your Astroship subscription, you can log in to your account and navigate to the subscription management page. From there, you should be able to cancel your subscription and stop future billing.
-                    </div>
-                </div>
-            </div>
-             <div class="accordion-item border-0" style=" border-bottom: solid 1px rgba(108, 117, 125, 0.2) !important;">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed fw-medium bg-white text-dark" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        Can I try Astroship's API platform for free?
-                    </button>
-                </h2>
-                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body text-secondary pt-0">
-                        Astroship offers a free trial of its API platform for a limited time. During the trial period, you will have access to a limited set of features and functionality, but you will not be charged.
-                    </div>
-                </div>
-            </div>
-             <div class="accordion-item border-0" style=" border-bottom: solid 1px rgba(108, 117, 125, 0.2) !important;">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed fw-medium bg-white text-dark" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                        How do I access Astroship's API documentation?
-                    </button>
-                </h2>
-                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body text-secondary pt-0">
-                        Astroship's API documentation is available on the company's website and can be accessed by logging in to your account. The documentation provides detailed information on how to use the API, as well as code examples and other resources.
-                    </div>
-                </div>
-            </div>
-             <div class="accordion-item border-0" style=" border-bottom: solid 1px rgba(108, 117, 125, 0.2) !important;">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed fw-medium bg-white text-dark" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                        How do I contact support?
-                    </button>
-                </h2>
-                <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body text-secondary pt-0">
-                        If you need help with Astroship's API platform or have any other questions, you can contact the company's support team by submitting a support request through the website or by emailing support@Astroship.com.
-                    </div>
-                </div>
-            </div>
-             <div class="accordion-item border-0" style=" border-bottom: solid 1px rgba(108, 117, 125, 0.2) !important;">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed fw-medium bg-white text-dark" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                        Do you offer any discounts or promotions?
-                    </button>
-                </h2>
-                <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body text-secondary pt-0">
-                        Astroship may offer discounts or promotions from time to time. To stay up-to-date on the latest deals and special offers, you can sign up for the company's newsletter or follow it on social media.
-                    </div>
-                </div>
-            </div>
-             <div class="accordion-item border-0">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed fw-medium bg-white text-dark" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                        How does Astroship compare to other similar services?
-                    </button>
-                </h2>
-                <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body text-secondary pt-0">
-                        Astroship's API platform is a highly reliable and feature-rich service that offers a wide range of tools and functionality. It is competitively priced and offers a variety of billing options to suit different needs and budgets.
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div
+          class="accordion-item border-0"
+          style="border-bottom: solid 1px rgba(108, 117, 125, 0.2) !important"
+        >
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed fw-medium bg-white text-dark"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSeven"
+              aria-expanded="false"
+              aria-controls="collapseSeven"
+            >
+              How does Astroship's billing work?
+            </button>
+          </h2>
+          <div
+            id="collapseSeven"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body text-secondary pt-0">
+              Astroship offers a variety of billing options, including monthly
+              and annual subscription plans, as well as pay-as-you-go pricing
+              for certain services. Payment is typically made through a credit
+              card or other secure online payment method.
+            </div>
+          </div>
+        </div>
+        <div
+          class="accordion-item border-0"
+          style="border-bottom: solid 1px rgba(108, 117, 125, 0.2) !important"
+        >
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed fw-medium bg-white text-dark"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTow"
+              aria-expanded="false"
+              aria-controls="collapseTow"
+            >
+              Can I get a refund for my Astroship subscription?
+            </button>
+          </h2>
+          <div
+            id="collapseTow"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body text-secondary pt-0">
+              Astroship offers a 30-day money-back guarantee for most of its
+              subscription plans. If you are not satisfied with your
+              subscription within the first 30 days, you can request a full
+              refund. Refunds for subscriptions that have been active for longer
+              than 30 days may be considered on a case-by-case basis.
+            </div>
+          </div>
+        </div>
+        <div
+          class="accordion-item border-0"
+          style="border-bottom: solid 1px rgba(108, 117, 125, 0.2) !important"
+        >
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed fw-medium bg-white text-dark"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              How do I cancel my Astroship subscription?
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body text-secondary pt-0">
+              To cancel your Astroship subscription, you can log in to your
+              account and navigate to the subscription management page. From
+              there, you should be able to cancel your subscription and stop
+              future billing.
+            </div>
+          </div>
+        </div>
+        <div
+          class="accordion-item border-0"
+          style="border-bottom: solid 1px rgba(108, 117, 125, 0.2) !important"
+        >
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed fw-medium bg-white text-dark"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFour"
+              aria-expanded="false"
+              aria-controls="collapseFour"
+            >
+              Can I try Astroship's API platform for free?
+            </button>
+          </h2>
+          <div
+            id="collapseFour"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body text-secondary pt-0">
+              Astroship offers a free trial of its API platform for a limited
+              time. During the trial period, you will have access to a limited
+              set of features and functionality, but you will not be charged.
+            </div>
+          </div>
+        </div>
+        <div
+          class="accordion-item border-0"
+          style="border-bottom: solid 1px rgba(108, 117, 125, 0.2) !important"
+        >
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed fw-medium bg-white text-dark"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFive"
+              aria-expanded="false"
+              aria-controls="collapseFive"
+            >
+              How do I access Astroship's API documentation?
+            </button>
+          </h2>
+          <div
+            id="collapseFive"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body text-secondary pt-0">
+              Astroship's API documentation is available on the company's
+              website and can be accessed by logging in to your account. The
+              documentation provides detailed information on how to use the API,
+              as well as code examples and other resources.
+            </div>
+          </div>
+        </div>
+        <div
+          class="accordion-item border-0"
+          style="border-bottom: solid 1px rgba(108, 117, 125, 0.2) !important"
+        >
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed fw-medium bg-white text-dark"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSix"
+              aria-expanded="false"
+              aria-controls="collapseSix"
+            >
+              How do I contact support?
+            </button>
+          </h2>
+          <div
+            id="collapseSix"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body text-secondary pt-0">
+              If you need help with Astroship's API platform or have any other
+              questions, you can contact the company's support team by
+              submitting a support request through the website or by emailing
+              support@Astroship.com.
+            </div>
+          </div>
+        </div>
+        <div
+          class="accordion-item border-0"
+          style="border-bottom: solid 1px rgba(108, 117, 125, 0.2) !important"
+        >
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed fw-medium bg-white text-dark"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseEight"
+              aria-expanded="false"
+              aria-controls="collapseEight"
+            >
+              Do you offer any discounts or promotions?
+            </button>
+          </h2>
+          <div
+            id="collapseEight"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body text-secondary pt-0">
+              Astroship may offer discounts or promotions from time to time. To
+              stay up-to-date on the latest deals and special offers, you can
+              sign up for the company's newsletter or follow it on social media.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item border-0">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed fw-medium bg-white text-dark"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseNine"
+              aria-expanded="false"
+              aria-controls="collapseNine"
+            >
+              How does Astroship compare to other similar services?
+            </button>
+          </h2>
+          <div
+            id="collapseNine"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body text-secondary pt-0">
+              Astroship's API platform is a highly reliable and feature-rich
+              service that offers a wide range of tools and functionality. It is
+              competitively priced and offers a variety of billing options to
+              suit different needs and budgets.
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- FOOTER -->
     <footer class="footer bg-primary-subtle">
-        <div class="container-fluid w-100 h-100">
-            <div class="top w-100 d-flex flex-column flex-md-row pt-5 ps-md-4">
-                <!-- LOGO / INTRO -->
-                <div class="logo w-100 w-md-25 h-100 px-4 px-md-0 mb-4 mb-md-0">
-                    <a href="#" class="fs-5" style="text-decoration: none">
-                        <span class="text-primary fw-bold">Astro</span>
-                        <span class="text-secondary-emphasis fw-lighter">ship</span>
-                        <span class="bg-secondary-subtle text-dark p-2 rounded fw-bold py-1"
-                            style="font-size: 8px !important">
-                            PRO
-                        </span>
-                    </a>
+      <div class="container-fluid w-100 h-100">
+        <div class="top w-100 d-flex flex-column flex-md-row pt-5 ps-md-4">
+          <!-- LOGO / INTRO -->
+          <div class="logo w-100 w-md-25 h-100 px-4 px-md-0 mb-4 mb-md-0">
+            <a href="#" class="fs-5" style="text-decoration: none">
+              <span class="text-primary fw-bold">Astro</span>
+              <span class="text-secondary-emphasis fw-lighter">ship</span>
+              <span
+                class="bg-secondary-subtle text-dark p-2 rounded fw-bold py-1"
+                style="font-size: 8px !important"
+              >
+                PRO
+              </span>
+            </a>
 
-                    <p class="fs-6 fw-lighter mt-4 mb-4">
-                        Astroship Pro is a premium astro website template made for saas &
-                        startups. Built with Astro and Tailwind CSS.
-                    </p>
+            <p class="fs-6 fw-lighter mt-4 mb-4">
+              Astroship Pro is a premium astro website template made for saas &
+              startups. Built with Astro and Tailwind CSS.
+            </p>
 
-                    <div class="d-flex gap-2">
-                        <button type="button" class="btn btn-secondary opacity-75 p-1">
-                            <i class="fab fa-twitter-square text-secondary-emphasis fs-6"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary opacity-75 p-1">
-                            <i class="fab fa-facebook text-secondary-emphasis fs-6"></i>
-                        </button>
-                        <button type="button" class="btn btn-secondary opacity-75 p-1">
-                            <i class="fab fa-linkedin text-secondary-emphasis fs-6"></i>
-                        </button>
-                    </div>
-                </div>
-
-                <!-- LINKS SECTION -->
-                <div class="links w-100 w-md-75 h-100">
-                    <div class="row">
-                        <div class="col-12 col-md-4 mb-4">
-                            <ul style="list-style: none" class="ms-md-5 ps-0">
-                                <label class="mb-3 fw-bold">Company</label>
-                                <li class="mb-3">About</li>
-                                <li class="mb-3">Careers</li>
-                                <li class="mb-3">Blog</li>
-                                <li class="mb-3">Contact</li>
-                            </ul>
-                        </div>
-
-                        <div class="col-12 col-md-4 mb-4">
-                            <ul style="list-style: none" class="ms-md-5 ps-0">
-                                <label class="mb-3 fw-bold">Product</label>
-                                <li class="mb-3">For Startups</li>
-                                <li class="mb-3">Features</li>
-                                <li class="mb-3">Pricing</li>
-                                <li class="mb-3">Integrations</li>
-                            </ul>
-                        </div>
-
-                        <div class="col-12 col-md-4 mb-4">
-                            <ul style="list-style: none" class="ms-md-5 ps-0">
-                                <label class="mb-3 fw-bold">Resources</label>
-                                <li class="mb-3">Help Center</li>
-                                <li class="mb-3">Guides</li>
-                                <li class="mb-3">Documentation</li>
-                                <li class="mb-3">Uptime Status</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+            <div class="d-flex gap-2">
+              <button type="button" class="btn btn-secondary opacity-75 p-1">
+                <i
+                  class="fab fa-twitter-square text-secondary-emphasis fs-6"
+                ></i>
+              </button>
+              <button type="button" class="btn btn-secondary opacity-75 p-1">
+                <i class="fab fa-facebook text-secondary-emphasis fs-6"></i>
+              </button>
+              <button type="button" class="btn btn-secondary opacity-75 p-1">
+                <i class="fab fa-linkedin text-secondary-emphasis fs-6"></i>
+              </button>
             </div>
+          </div>
 
-            <hr class="mx-auto" />
+          <!-- LINKS SECTION -->
+          <div class="links w-100 w-md-75 h-100">
+            <div class="row">
+              <div class="col-12 col-md-4 mb-4">
+                <ul style="list-style: none" class="ms-md-5 ps-0">
+                  <label class="mb-3 fw-bold">Company</label>
+                  <li class="mb-3">About</li>
+                  <li class="mb-3">Careers</li>
+                  <li class="mb-3">Blog</li>
+                  <li class="mb-3">Contact</li>
+                </ul>
+              </div>
 
-            <!-- BOTTOM -->
-            <div class="bottom py-3">
-                <p class="text-center mb-1">
-                    Copyright © 2025 Astroship. All rights reserved.
-                </p>
-                <p class="text-center mb-0">
-                    <a class="text-decoration-none" href="#">Terms</a> ・
-                    <a class="text-decoration-none" href="#">Privacy</a>
-                </p>
+              <div class="col-12 col-md-4 mb-4">
+                <ul style="list-style: none" class="ms-md-5 ps-0">
+                  <label class="mb-3 fw-bold">Product</label>
+                  <li class="mb-3">For Startups</li>
+                  <li class="mb-3">Features</li>
+                  <li class="mb-3">Pricing</li>
+                  <li class="mb-3">Integrations</li>
+                </ul>
+              </div>
+
+              <div class="col-12 col-md-4 mb-4">
+                <ul style="list-style: none" class="ms-md-5 ps-0">
+                  <label class="mb-3 fw-bold">Resources</label>
+                  <li class="mb-3">Help Center</li>
+                  <li class="mb-3">Guides</li>
+                  <li class="mb-3">Documentation</li>
+                  <li class="mb-3">Uptime Status</li>
+                </ul>
+              </div>
             </div>
+          </div>
         </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
-</body>
 
+        <hr class="mx-auto" />
+
+        <!-- BOTTOM -->
+        <div class="bottom py-3">
+          <p class="text-center mb-1">
+            Copyright © 2025 Astroship. All rights reserved.
+          </p>
+          <p class="text-center mb-0">
+            <a class="text-decoration-none" href="#">Terms</a> ・
+            <a class="text-decoration-none" href="#">Privacy</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
