@@ -17,70 +17,113 @@
 
     <!-- HEADER -->
     <header class="header shadow bg-light-subtle w-100 position-sticky top-0">
-        <nav class="navbar navbar-expand-lg bg-light-subtle">
-            <div class="container-fluid mx-3">
-                <a href="/" class="navbar-brand fs-4 ms-2 ms-sm-5 logo-link" style="text-decoration: none">
-                    <span class="text-primary fw-bold">Astro</span><span class="text-secondary fw-light">ship</span>
-                    <span class="bg-secondary-subtle text-dark px-1 py-0 rounded fw-bold logo-pro-tag">PRO</span>
-                </a>
+      <nav class="navbar navbar-expand-lg bg-light-subtle">
+        <div class="container-fluid mx-3">
+          <a
+            href="/"
+            class="navbar-brand fs-4 ms-2 ms-sm-5 logo-link"
+            style="text-decoration: none"
+          >
+            <span class="text-primary fw-bold">Astro</span
+            ><span class="text-secondary fw-light">ship</span>
+            <span
+              class="bg-secondary-subtle text-dark px-1 py-0 rounded fw-bold logo-pro-tag"
+              >PRO</span
+            >
+          </a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <div class="navBar mx-lg-auto">
-                        <ul class="navbar-nav mb-2 mb-lg-0 gap-lg-4">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link text-secondary" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Pages <i class="fa fa-angle-down"></i>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a class="dropdown-item text-secondary" href="/pages/features.html">Features</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item text-secondary"
-                                            href="/pages/integrations.html">Integrations</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item text-secondary" href="/pages/blog-details.html">Blog
-                                            Details</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item text-secondary" href="/pages/404.html">404 Page</a>
-                                    </li>
-                                </ul>
-                            </li>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navBar mx-lg-auto">
+              <ul class="navbar-nav mb-2 mb-lg-0 gap-lg-4">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link text-secondary"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Pages <i class="fa fa-angle-down"></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        class="dropdown-item text-secondary"
+                        href="/pages/features.html"
+                        >Features</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item text-secondary"
+                        href="/pages/integrations.html"
+                        >Integrations</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item text-secondary"
+                        href="/pages/blog-details.html"
+                        >Blog Details</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item text-secondary"
+                        href="/pages/404.html"
+                        >404 Page</a
+                      >
+                    </li>
+                  </ul>
+                </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link text-secondary" href="#">Pricing</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-secondary" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-secondary" href="#">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-secondary" href="#">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="buttons d-flex flex-column flex-lg-row align-items-lg-center mt-3 mt-lg-0">
-                        <a href="#" class="text-dark nav-link me-lg-3 py-2 py-lg-0"
-                            style="text-decoration: none">Login</a>
-                        <button type="button" class="btn btn-primary fx-4 me-lg-5 mb-3 mb-lg-0" data-bs-toggle="button">
-                            Try for Free <span>&gt;</span>
-                        </button>
-                    </div>
-                </div>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary" href="../pages/pricing.html">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary" href="../pages/about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary" href="../pages/blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary" href="../pages/contact.html">Contact</a>
+                </li>
+              </ul>
             </div>
-        </nav>
+
+            <div
+              class="buttons d-flex flex-column flex-lg-row align-items-lg-center mt-3 mt-lg-0"
+            >
+              <a
+                href="#"
+                class="text-dark nav-link me-lg-3 py-2 py-lg-0"
+                style="text-decoration: none"
+                >Login</a
+              >
+              <button
+                type="button"
+                class="btn btn-primary fx-4 me-lg-5 mb-3 mb-lg-0"
+                data-bs-toggle="button"
+              >
+                Try for Free <span>&gt;</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!-- OUR BLOG -->
