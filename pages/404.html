@@ -152,14 +152,14 @@
     </header>
 
     <!-- ERROR -->
-    <section class="error-demo py-5">
+    <section class="error-demo py-5 vh-100 d-flex align-items-center">
       <div
-        class="container d-flex flex-column justify-content-center align-items-center h-100 w-100"
+        class="container d-flex flex-column justify-content-center align-items-center text-center"
       >
         <h1
-          class="mb-2 fw-bold"
+          class="mb-4 fw-bold"
           style="
-            font-size: 150px;
+            font-size: clamp(80px, 20vw, 150px); /* Responsive font size */
             background: linear-gradient(to bottom, #e6e7fc, #5c56e8);
             -webkit-background-clip: text;
             background-clip: text;
@@ -169,12 +169,15 @@
         >
           404
         </h1>
-        <p class="mb-5 fw-bold">The page you are looking for doesn’t exist.</p>
+
+        <p class="mb-5 fw-bold fs-5">
+          The page you are looking for doesn’t exist.
+        </p>
+
         <a
           href="/"
           type="button"
-          class="btn btn-outline-primary btn-lg w-25 border border-primary border-3"
-          style="border-radius: 50px"
+          class="btn btn-outline-primary btn-lg px-4 border border-primary border-3 rounded-pill"
         >
           Back to Home
         </a>
@@ -184,10 +187,10 @@
     <!-- FOOTER -->
     <footer class="footer bg-primary-subtle">
       <div class="container-fluid w-100 h-100">
-        <div class="top w-100 d-flex flex-column flex-md-row pt-5 ps-md-4">
-          <!-- LOGO / INTRO -->
-          <div class="logo w-100 w-md-25 h-100 px-4 px-md-0 mb-4 mb-md-0">
-            <a href="#" class="fs-5" style="text-decoration: none">
+        <div class="top w-100 d-flex flex-column pt-5 ps-lg-4">
+          <!-- LOGO -->
+          <div class="logo w-100 w-lg-25 h-100 px-4 px-lg-0 mb-4 mb-lg-0">
+            <a href="#" class="fs-5 text-decoration-none">
               <span class="text-primary fw-bold">Astro</span>
               <span class="text-secondary-emphasis fw-lighter">ship</span>
               <span
@@ -218,11 +221,11 @@
             </div>
           </div>
 
-          <!-- LINKS SECTION -->
-          <div class="links w-100 w-md-75 h-100">
+          <!-- LINKS -->
+          <div class="links w-100 w-lg-75 h-100">
             <div class="row">
-              <div class="col-12 col-md-4 mb-4">
-                <ul style="list-style: none" class="ms-md-5 ps-0">
+              <div class="col-12 col-lg-4 mb-4">
+                <ul style="list-style: none" class="ms-lg-5 ps-0">
                   <label class="mb-3 fw-bold">Company</label>
                   <li class="mb-2">About</li>
                   <li class="mb-2">Careers</li>
@@ -231,8 +234,8 @@
                 </ul>
               </div>
 
-              <div class="col-12 col-md-4 mb-4">
-                <ul style="list-style: none" class="ms-md-5 ps-0">
+              <div class="col-12 col-lg-4 mb-4">
+                <ul style="list-style: none" class="ms-lg-5 ps-0">
                   <label class="mb-3 fw-bold">Product</label>
                   <li class="mb-2">For Startups</li>
                   <li class="mb-2">Features</li>
@@ -241,8 +244,8 @@
                 </ul>
               </div>
 
-              <div class="col-12 col-md-4 mb-4">
-                <ul style="list-style: none" class="ms-md-5 ps-0">
+              <div class="col-12 col-lg-4 mb-4">
+                <ul style="list-style: none" class="ms-lg-5 ps-0">
                   <label class="mb-3 fw-bold">Resources</label>
                   <li class="mb-2">Help Center</li>
                   <li class="mb-2">Guides</li>
@@ -257,11 +260,9 @@
         <hr class="mx-auto" />
 
         <!-- BOTTOM -->
-        <div class="bottom py-3">
-          <p class="text-center mb-1">
-            Copyright © 2025 Astroship. All rights reserved.
-          </p>
-          <p class="text-center mb-0">
+        <div class="bottom py-3 text-center">
+          <p class="mb-1">Copyright © 2025 Astroship. All rights reserved.</p>
+          <p class="mb-0">
             <a class="text-decoration-none" href="#">Terms</a> ・
             <a class="text-decoration-none" href="#">Privacy</a>
           </p>
